@@ -36,7 +36,7 @@ a {
 }
 
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%;
 }
 
@@ -55,7 +55,6 @@ img {
 }
 
 .container-right {
-  /* padding-left: calc((100% - 1230px) / 2 + 15px); */
   padding-left: calc((100% - 1630px) / 2 + 15px);
 }
 
@@ -65,13 +64,11 @@ img {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 200px;
-
 }
 
 .nav__list {
   display: flex;
   column-gap: 15px;
-
 }
 
 .nav__list-link {
@@ -241,15 +238,6 @@ img {
   margin-bottom: 45px;
 }
 
-.why {
-
-  /* padding: 100px 0 100px; */
-  /* background: linear-gradient(to right,  #FFFFFF 50%, #FFFFFF 50%, #E7E7E7 50%, #E7E7E7 50%); */
-}
-
-.container {}
-
-
 .why-row-content,
 .why-row-img {
   width: 50%;
@@ -257,10 +245,6 @@ img {
 
 .why-row {
   display: flex;
-}
-
-.why-row-content {
-  /* padding-left: 160px; */
 }
 
 .title-h2 {}
@@ -283,7 +267,6 @@ img {
   margin-bottom: 45px;
 }
 
-
 .solution {
   padding: 109px 0;
   position: relative;
@@ -301,7 +284,6 @@ img {
   right: 0;
   bottom: 0;
   z-index: -2;
-
 }
 
 .position-title-center {
@@ -385,10 +367,6 @@ img {
   text-decoration: underline;
 }
 
-
-.benefist {
-}
-
 .benefist-row-content--title {
   margin: 200px 0 165px; 
 }
@@ -396,8 +374,8 @@ img {
 .benefist-list {
   display: flex;
   margin-bottom: 65px;
-
 }
+
 .benefist-list__item {
   width: calc(100% / 6);
   padding: 64px 100px 65px 30px;
@@ -452,7 +430,87 @@ img {
 }
 
 
+.team {
+  padding-top: 109px;
+  padding-bottom: 60px;
+}
+
+.team-row {
+  display: flex;
+  column-gap: 80px;
+}
+
+.team-row-content {
+  max-width: 460px;
+}
+
+.team-title {
+  margin-bottom: 100px;
+
+}
+
+.team-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+
+.team-gallery-row {
+  display: flex;
+  column-gap: 45px;
+  align-items: center;
+}
+
+.team-gallery-item {
+  position: relative;
+}
+
+
+.team-gallery-item {
+  position: relative;
+}
+
+.img-content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 10px;
+}
+
+
+
+
+.img-content-title {
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.img-content-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+
+.team-gallery-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+}
+
+
 
 .footer {
   height: 150px;
+  background-color:#5CA7FF;
 }
