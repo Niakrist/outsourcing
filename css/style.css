@@ -52,7 +52,11 @@ img {
   max-width: 1630px;
   padding: 0 15px;
   margin: 0 auto;
+}
 
+.container-right {
+  /* padding-left: calc((100% - 1230px) / 2 + 15px); */
+  padding-left: calc((100% - 1630px) / 2 + 15px);
 }
 
 .header-menu {
@@ -181,7 +185,6 @@ img {
 
 .who-roe-img__text {
   display: block;
-  margin-left: 160px;
   max-width: 500px;
   font-size: 40px;
   font-weight: 400;
@@ -257,7 +260,7 @@ img {
 }
 
 .why-row-content {
-  padding-left: 160px;
+  /* padding-left: 160px; */
 }
 
 .title-h2 {}
@@ -387,7 +390,7 @@ img {
 }
 
 .benefist-row-content--title {
-  margin: 200px 0 165px 125px; 
+  margin: 200px 0 165px; 
 }
 
 .benefist-list {
