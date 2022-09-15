@@ -247,8 +247,6 @@ img {
   display: flex;
 }
 
-.title-h2 {}
-
 .why-row-content--title {
   padding-top: 109px;
 }
@@ -484,9 +482,6 @@ img {
   padding: 20px 10px;
 }
 
-
-
-
 .img-content-title {
   font-size: 23px;
   font-weight: 500;
@@ -501,14 +496,53 @@ img {
   text-transform: uppercase;
 }
 
-
 .team-gallery-column {
   display: flex;
   flex-direction: column;
   row-gap: 80px;
 }
 
+.case {
+}
+.container-full {
+}
+.case-row {
+  display: flex;
+  column-gap: 20px;
+}
+.case-row-item {
+  width: calc(100% / 3);
+}
 
+.case-title {
+  padding-top: 110px;
+  padding-right: 14px;
+  background-color: #ECECEC;
+}
+
+
+.title-h2-right {
+  text-align: right;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #000000;
+  position: relative;
+}
+
+.title-h2-right::after {
+  content: '';
+  position: absolute;
+  background-image: url('../img/group-line.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 200px;
+  transform: translateX(-50%);
+  bottom: -50px;
+  width: 79px;
+  height: 24px;
+}
 
 .footer {
   height: 150px;
