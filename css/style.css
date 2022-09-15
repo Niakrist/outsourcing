@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Nixie+One:regular);
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -157,4 +158,103 @@ a {
   height: 4px; 
   cursor: pointer; 
 
+}
+
+
+.who {
+  padding: 100px 0 100px;
+  background: linear-gradient(to right, #E7E7E7 50%, #E7E7E7 50%, #FFFFFF 50%, #FFFFFF 50%);
+
+}
+.container {
+}
+
+
+.who-row {
+  display: flex;
+  align-items: center;
+}
+
+.who-row-img,
+.who-row-content {
+  width: 50%;
+}
+
+.who-row-content {
+  padding: 10px;
+
+}
+
+
+
+
+.who-roe-img__text {
+  display: block;
+  margin-left: 160px;
+  max-width: 500px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.25;
+  font-family: 'Nixie One', sans-serif;
+  color: #000000;
+  position: relative;
+  z-index: 2;
+}
+
+.who-roe-img__text::after {
+  content: '';
+  position: absolute;
+  top: -100px;
+  left: -70px;
+  background-image: url('../img/round.svg');
+  width: 387px;
+  height: 385px;
+  z-index: -1;
+
+}
+
+.who-row-content--title {
+  margin-bottom: 150px;
+}
+
+.title-h2 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #000000;
+  position: relative;
+}
+
+.title-h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  background-image: url('../img/group-line.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 79px;
+  height: 24px;
+}
+
+.who-row-content__text {
+  max-width: 790px;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 45px;
+ 
+}
+
+
+
+
+
+
+
+.footer {
+  height: 150px;
 }
